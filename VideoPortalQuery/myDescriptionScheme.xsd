@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"  elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:element name="ParamValueList" type="ParamValueListType"/>
+	<xsd:complexType name="ParamValueListType">
+		<xsd:sequence>
+			<xsd:element name="ParamValuePair" type="ParamValuePairType" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ParamValuePairType">
+		<xsd:sequence>
+			<xsd:element name="Param" type="xsd:string"/>
+			<xsd:element name="Value" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ParamValueList><ParamValuePair><Param>QueryByText</Param><Value>dogs</Value></ParamValuePair><ParamValuePair><Param>TimePeriod</Param><Value>all_time</Value></ParamValuePair><ParamValuePair><Param>Ordering</Param><Value>RELEVANCE</Value></ParamValuePair></ParamValueList>

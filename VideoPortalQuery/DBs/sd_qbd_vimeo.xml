@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mpqf:MpegQuery mpqfID="001" xmlns:mpqf="urn:mpeg:mpqf:schema:2008" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:mpqf:schema:2008 mpqf_semantic_enhancement.xsd">
+	<mpqf:Management>
+		<mpqf:Input>
+			<mpqf:DesiredCapability>
+				<mpqf:SupportedQueryTypes href="urn:mpeg:mpqf:2008:CS:full:100.3.6.2" />
+			</mpqf:DesiredCapability>
+			<mpqf:ServiceID>de.uop.dimis.iisDemo.interpreter.VimeoAdapter</mpqf:ServiceID>
+		</mpqf:Input>
+	</mpqf:Management>
+</mpqf:MpegQuery>
